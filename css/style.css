@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,600i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand');
+
+
+body{
+	overflow-x: hidden
+}
+
+header{
+	background: #046E8F
+}
+
+.logo img{
+	width:125px;
+	margin:10px 15px
+}
+
+.navbar{
+	width:100vw; 
+	z-index: 50; 
+	background-color: #00375d;
+	border:none;
+	border-radius:0px;
+	margin: 0;
+	font-family: 'Open Sans';
+	font-weight: 600
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: #ffffff; 
+	margin: 0px 30px; 
+	font-size: 16px
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+	color: #ffffff;
+	background-color: #19b14b
+} 
+
+.navbar-default .navbar-nav>li>a:focus{
+	color: #ffffff
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+    color: #ea889f;
+    background: transparent !important
+}
+
+.carousel, .carousel-inner{
+	height: 70vh
+}
+
+#pets{
+	margin: 15px auto 5px
+}
+
+#pets h5{
+	text-transform: uppercase;
+	color: white;
+	font-weight: 600
+}
+
+.animais{
+	position: absolute; 
+	position: relative; 
+	z-index: 30;
+	margin-top: 20px
+}
+
+.parallax{
+	height:200px;
+	background-attachment:fixed;
+	background-position: center top;
+    background-repeat: no-repeat;
+    background-size: ;
+	margin-top: 50px
+}
+
+.distance{
+	margin: 30px auto 0
+}
+
+#services h1, #services h6, #contato h1, #contato h6{
+	text-align: center
+}
+
+#galeria img{
+	margin: 15px auto
+}
+
+#galeria p{
+	margin: 10px 0px 25px
+}
+
+.subir {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 2em;
+    right: 2em;
+    border-radius: 50%;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+    font-size: 14px;
+    padding: 8px 0 0;
+    display: none
+}
+
+.subir:hover {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+footer{
+	background-color: #046E8F; 
+	color: #ffffff
+}
+
+footer p{
+	text-transform: uppercase;
+	font-weight:700;
+	font-size: 16px;
+	color:#01283d
+}
+
+footer ul{
+	padding: 0;
+	list-style: none
+}
+
+footer .container{
+	padding-top: 30px
+}
+
+#dev{
+	background-color: #046E8F;
+	padding-bottom: 15px; 
+	text-align: center
+}
+
+#galeria .col-sm-3, #galeria .col-xs-6{
+	padding: 0; 
+	margin: 0
+}
+
+h1{
+	font-family:'Patrick Hand';
+	font-weight:600;
+	font-size:42px;
+	color:#046E8F
+}
+
+p{
+	font-family:'Open Sans';
+	font-size: 15px
+}
+
+h6{
+	color:#19b14b;
+	font-weight: 600;
+	text-transform:uppercase
+}
+
+.arrow a{
+    display:inline-block;
+    cursor:pointer;
+    color: #19b14b;
+    font-size: 14px;
+}
+
+@media (min-width: 770px){
+	.navbar {
+		display:flex!important;
+		justify-content:center
+	}
+
+	.direita{
+		text-align: right;
+	}
+}
+
+@media (max-width: 849px){
+	.carousel, .carousel-inner{
+		height: 25vh
+	}
+}
